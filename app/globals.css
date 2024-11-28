@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1A1A1A; 
+  --foreground: #F8FAFC;
+  --primary: #344CB7;
+  --primary-light: #577BC1;
+  --secondary: #262626;
+  --secondary-light: #454545;
+  --yellow: #FFD700;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
